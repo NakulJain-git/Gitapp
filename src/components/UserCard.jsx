@@ -58,7 +58,14 @@ function UserCard({ userData, repos }) {
                                 key={repo.id}
                                 className="bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition-all"
                             >
-                                <h3 className="text-xl font-bold mb-1">{repo.name}</h3>
+                                <a
+                                    href={repo.html_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-xl font-bold mb-1 hover:underline"
+                                >
+                                    {repo.name}
+                                </a>
                                 <p className="text-sm text-gray-600 mb-2">{repo.language}</p>
                                 <p className="text-gray-700 text-sm mb-2">{repo.description}</p>
                                 <p className="text-xs text-gray-500">
