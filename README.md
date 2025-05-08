@@ -1,13 +1,50 @@
-# React + Vite
+# 🚀 GitHub Summariser - GitApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub Summary Banner](https://github.com/user-attachments/assets/18279ac7-0f70-46e1-aa5b-a8b3ad618170)
 
-Currently, two official plugins are available:
+A sleek and intuitive web app to search and summarize any GitHub profile using the GitHub API. Built with **React.js** and **Tailwind CSS**, and deployed with ❤️ on **Vercel**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo**: [gitapp-bice.vercel.app](https://gitapp-bice.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Gitapp" 
+## ✨ Features
+
+- 🔍 Search any GitHub username
+- 📊 View public profile details (bio, followers, etc.)
+- 📁 View public repositories in a clean UI
+- 🧑‍🎨 Responsive design powered by Tailwind CSS
+- ⚡ Fast & lightweight (Vite + React)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech             | Description                      |
+|------------------|----------------------------------|
+| React.js         | Frontend Framework               |
+| Tailwind CSS     | Utility-first CSS Styling        |
+| GitHub REST API  | Data Source                      |
+| Vite             | Lightning-fast Build Tool        |
+| Vercel           | Deployment Platform              |
+
+---
+
+## 📸 Preview
+
+![App Screenshot](https://github.com/user-attachments/assets/ffc2ecd1-8ff6-4ad3-8eb1-69a1acde3470)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/GitApp.git
+cd GitApp
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
